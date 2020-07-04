@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaron's Personal site</title>
+</head>
+<body>
+  <h2>Contact Details</h2>
+  <p>Address : Mullasseril Puthuvana Puthencavu P.O., Chengannur.</p>
+  <p>Mob no : 8281203965</p>
+  <p>Email : aaronpsam@gmail.com</p> 
+
+  <form action="" method="post">
+      <label>Your Name :</label>
+      <input type="text" name="name" value="" required><br>
+
+      <label>Your Favcolor :</label>
+      <input type="color" name="color" value=""><br>
+
+      <label for="address">Address :</label>
+      <textarea name="address" id="address" cols="20" rows="3" required></textarea><br>
+
+      <label for="mobile">Mobile no :</label>
+      <input type="tel" name="mobile" id="mobile" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+      <small>Format : 123-456-7891</small><br>
+
+      <label>Your Qualification :</label>
+      <input type="checkbox" name="qualification" id="degree">
+      <label for="degree">Graduate</label>
+      <input type="checkbox" name="qualification" id="degree">
+      <label for="degree">12 grade</label>
+      <input type="checkbox" name="qualification" id="degree">
+      <label for="degree">10 grade</label><br>
+
+      <label>Gender :</label>
+      <input type="radio" name="gender" id="male" required>
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="female" required>
+      <label for="female">Female</label><br>
+
+      <label for="members">No. of family members</label>
+      <input type="number" name="members" id="members"><br>
+
+      <label for="start">DOB :</label>
+      <input type="date" id="start" name="dob" value="" min="01-01-1901" max="31-12-2020" required><br>
+
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" placeholder="example@gmail.com" required><br>
+
+      <label for="file">Upload resume</label>
+      <input type="file" name="file" id="file" multiple required><br>
+
+      <label for="work">Work Experience</label>
+      <input type="range" name="work" id="work" min="0" max="10" value="3"><br>
+
+      <label for="signin">Do you want to Sign In</label>
+      <input type="checkbox" name="signin" id="signin" required><br>
+
+      <label for="username">Username</label>
+      <input type="text" name="username" id="username" required><br>
+
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" required><br>
+
+      <input type="reset" value="Reset">
+      <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
